@@ -1,0 +1,186 @@
+{
+    "num_pages": 2,
+    "category": "capital_call",
+    "occurrences": 2,
+    "classification_results": [
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/activity_notice_3aSufMl4m9hOmhagr27Lkb_0xfHq5UR5y81GfpqDFFutQ_page_1.jpg",
+            "extracted_data": {
+                "category": "capital_call"
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/activity_notice_3aSufMl4m9hOmhagr27Lkb_0xfHq5UR5y81GfpqDFFutQ_page_2.jpg",
+            "extracted_data": {
+                "category": "capital_call"
+            }
+        }
+    ],
+    "extracted_data": [
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/activity_notice_3aSufMl4m9hOmhagr27Lkb_0xfHq5UR5y81GfpqDFFutQ_page_1.jpg",
+            "extracted_data": {
+                "fund_name": {
+                    "value": "BECO Booster Fund III, L.P.",
+                    "bbox": [
+                        75,
+                        146,
+                        473,
+                        172
+                    ],
+                    "confidence": 1.0
+                },
+                "call_date": {
+                    "value": "June 26, 2024",
+                    "bbox": [
+                        1058,
+                        357,
+                        1185,
+                        373
+                    ],
+                    "confidence": 1.0
+                },
+                "investor_name": {
+                    "value": "WP PCC Limited - BBF Cell",
+                    "bbox": [
+                        75,
+                        263,
+                        525,
+                        281
+                    ],
+                    "confidence": 1.0
+                },
+                "amount_due": {
+                    "value": "$353,193.00",
+                    "bbox": [
+                        1074,
+                        524,
+                        1185,
+                        539
+                    ],
+                    "confidence": 1.0
+                },
+                "currency": {
+                    "value": "USD",
+                    "bbox": [
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "confidence": 0.0
+                },
+                "transactions": [
+                    {
+                        "date": {
+                            "value": "July 12, 2024",
+                            "bbox": [
+                                1066,
+                                398,
+                                1185,
+                                414
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Capital Call Contribution",
+                            "bbox": [
+                                75,
+                                524,
+                                183,
+                                539
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "$353,193.00",
+                            "bbox": [
+                                1074,
+                                524,
+                                1185,
+                                539
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            "confidence": 0.0
+                        },
+                        "balance": {
+                            "value": null,
+                            "bbox": [
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            "confidence": 0.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/activity_notice_3aSufMl4m9hOmhagr27Lkb_0xfHq5UR5y81GfpqDFFutQ_page_2.jpg",
+            "extracted_data": {
+                "fund_name": {
+                    "value": "BECO Booster Fund III, L.P.",
+                    "bbox": [
+                        945,
+                        463,
+                        1187,
+                        478
+                    ],
+                    "confidence": 1.0
+                },
+                "call_date": {
+                    "value": null,
+                    "bbox": [
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "confidence": 0.0
+                },
+                "investor_name": {
+                    "value": "WP PCC Limited - BBF Cell",
+                    "bbox": [
+                        945,
+                        682,
+                        1187,
+                        697
+                    ],
+                    "confidence": 1.0
+                },
+                "amount_due": {
+                    "value": "$353,193.00",
+                    "bbox": [
+                        1073,
+                        267,
+                        1187,
+                        282
+                    ],
+                    "confidence": 1.0
+                },
+                "currency": {
+                    "value": "USD",
+                    "bbox": [
+                        1144,
+                        307,
+                        1187,
+                        322
+                    ],
+                    "confidence": 1.0
+                },
+                "transactions": []
+            }
+        }
+    ]
+}

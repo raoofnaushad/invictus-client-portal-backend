@@ -1,0 +1,56 @@
+server:
+    port: 9002
+    address: 0.0.0.0
+logging:
+    level:
+        org:
+            springframework:
+                cloud:
+                    gateway: DEBUG
+                web:
+                    reactive:
+                        function:
+                            client: DEBUG
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      # Define Routes
+      routes:
+        - id: client-service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/v1/principals/**
+        - id: portfolio-service
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/v1/portfolios/**
+        - id: integration-service
+          uri: http://localhost:8083
+          predicates:
+            - Path=/api/v1/integrations/**
+        - id: document-service
+          uri: http://localhost:8084
+          predicates:
+            - Path=/api/v1/documents/**
+      # CORS Configuration
+      globalcors:
+        corsConfigurations:
+          "[/**]":
+            allowedOrigins: "http://localhost:5173"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+            allowedHeaders: "Authorization, Content-Type"
+            allowCredentials: true
+
+  # OAuth2 Configuration for JWT Resource Server
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/client-portal

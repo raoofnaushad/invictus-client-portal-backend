@@ -1,0 +1,141 @@
+2025-03-31 17:07:38.343213+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "commit[*],"
+Syntax error in SQL statement "commit[*],"; SQL statement:
+commit, [42000-232]
+2025-04-27 18:51:40.334817+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Impossible de supprimer "USER_CREDENTIAL_TABLE" car "CONSTRAINT_7A" dépend de lui
+Cannot drop "USER_CREDENTIAL_TABLE" because "CONSTRAINT_7A" depends on it; SQL statement:
+DROP TABLE USER_CREDENTIAL_TABLE [90107-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:644)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.command.ddl.DropTable.prepareDrop(DropTable.java:108)
+	at org.h2.command.ddl.DropTable.update(DropTable.java:133)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:139)
+	at org.h2.command.Command.executeUpdate(Command.java:304)
+	at org.h2.command.Command.executeUpdate(Command.java:248)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:262)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1344)
+	at org.h2.server.web.WebApp.query(WebApp.java:1142)
+	at org.h2.server.web.WebApp.query(WebApp.java:1118)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-27 18:52:00.223628+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "commit[*],"
+Syntax error in SQL statement "commit[*],"; SQL statement:
+commit, [42000-232]
+2025-04-27 19:59:57.965284+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "commit[*],"
+Syntax error in SQL statement "commit[*],"; SQL statement:
+commit, [42000-232]
+2025-04-27 20:04:25.392491+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "commit[*],"
+Syntax error in SQL statement "commit[*],"; SQL statement:
+commit, [42000-232]
+2025-04-27 21:01:33.387727+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "[*]deleye from USER_CREDENTIAL_TABLE"; attendu "DELETE, DROP"
+Syntax error in SQL statement "[*]deleye from USER_CREDENTIAL_TABLE"; expected "DELETE, DROP"; SQL statement:
+deleye from USER_CREDENTIAL_TABLE [42001-232]
+2025-04-27 22:50:32.328295+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "delete[*]* FROM USER_CREDENTIAL_TABLE"; attendu "identifier"
+Syntax error in SQL statement "delete[*]* FROM USER_CREDENTIAL_TABLE"; expected "identifier"; SQL statement:
+delete* FROM USER_CREDENTIAL_TABLE [42001-232]
+2025-04-27 22:50:48.250397+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "delete[*]* FROM PRINCIPAL_TABLE \000d\000adelete* FROM USER_CREDENTIAL_TABLE"; attendu "identifier"
+Syntax error in SQL statement "delete[*]* FROM PRINCIPAL_TABLE \000d\000adelete* FROM USER_CREDENTIAL_TABLE"; expected "identifier"; SQL statement:
+delete* FROM PRINCIPAL_TABLE 
+delete* FROM USER_CREDENTIAL_TABLE [42001-232]
+2025-04-27 22:50:51.268964+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "delete[*]* FROM PRINCIPAL_TABLE \000d\000adelete* FROM USER_CREDENTIAL_TABLE"; attendu "identifier"
+Syntax error in SQL statement "delete[*]* FROM PRINCIPAL_TABLE \000d\000adelete* FROM USER_CREDENTIAL_TABLE"; expected "identifier"; SQL statement:
+delete* FROM PRINCIPAL_TABLE 
+delete* FROM USER_CREDENTIAL_TABLE [42001-232]
+2025-04-27 22:50:54.188422+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "delete[*]* FROM PRINCIPAL_TABLE \000d\000adelete* FROM USER_CREDENTIAL_TABLE"; attendu "identifier"
+Syntax error in SQL statement "delete[*]* FROM PRINCIPAL_TABLE \000d\000adelete* FROM USER_CREDENTIAL_TABLE"; expected "identifier"; SQL statement:
+delete* FROM PRINCIPAL_TABLE 
+delete* FROM USER_CREDENTIAL_TABLE [42001-232]
+2025-04-27 22:50:59.553612+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "delete  FROM PRINCIPAL_TABLE \000d\000adelete  [*]FROM USER_CREDENTIAL_TABLE"
+Syntax error in SQL statement "delete  FROM PRINCIPAL_TABLE \000d\000adelete  [*]FROM USER_CREDENTIAL_TABLE"; SQL statement:
+delete  FROM PRINCIPAL_TABLE 
+delete  FROM USER_CREDENTIAL_TABLE [42000-232]
+2025-04-27 22:51:01.322274+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "delete  FROM PRINCIPAL_TABLE \000d\000adelete  [*]FROM USER_CREDENTIAL_TABLE"
+Syntax error in SQL statement "delete  FROM PRINCIPAL_TABLE \000d\000adelete  [*]FROM USER_CREDENTIAL_TABLE"; SQL statement:
+delete  FROM PRINCIPAL_TABLE 
+delete  FROM USER_CREDENTIAL_TABLE [42000-232]
+2025-04-27 22:51:06.946600+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "delete  FROM PRINCIPAL_TABLE \000d\000adelete  [*]FROM USER_CREDENTIAL_TABLE"
+Syntax error in SQL statement "delete  FROM PRINCIPAL_TABLE \000d\000adelete  [*]FROM USER_CREDENTIAL_TABLE"; SQL statement:
+delete  FROM PRINCIPAL_TABLE 
+delete  FROM USER_CREDENTIAL_TABLE [42000-232]
+2025-04-27 23:27:12.122564+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "delete from PRINCIPAL_TABLE \000d\000adelete [*]from USER_CREDENTIAL_TABLE \000d\000acommit"
+Syntax error in SQL statement "delete from PRINCIPAL_TABLE \000d\000adelete [*]from USER_CREDENTIAL_TABLE \000d\000acommit"; SQL statement:
+delete from PRINCIPAL_TABLE 
+delete from USER_CREDENTIAL_TABLE 
+commit [42000-232]
+2025-04-29 06:39:18.464769+01:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "delete from PRINCIPAL_TABLE \000d\000adelete [*]FROM USER_CREDENTIAL_TABLE\000d\000acommit"
+Syntax error in SQL statement "delete from PRINCIPAL_TABLE \000d\000adelete [*]FROM USER_CREDENTIAL_TABLE\000d\000acommit"; SQL statement:
+delete from PRINCIPAL_TABLE 
+delete FROM USER_CREDENTIAL_TABLE
+commit [42000-232]
+2025-05-09 00:56:21.964981+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "SELECT * FROM USER_CREDENTIAL_TABLE \000d\000a\000d\000a\000d\000aALTER [*]TABLE USER_CREDENTIAL_TABLE \000d\000aADD COLUMN FULL_NAME VARCHAR(255)"
+Syntax error in SQL statement "SELECT * FROM USER_CREDENTIAL_TABLE \000d\000a\000d\000a\000d\000aALTER [*]TABLE USER_CREDENTIAL_TABLE \000d\000aADD COLUMN FULL_NAME VARCHAR(255)"; SQL statement:
+SELECT * FROM USER_CREDENTIAL_TABLE 
+
+
+ALTER TABLE USER_CREDENTIAL_TABLE 
+ADD COLUMN FULL_NAME VARCHAR(255) [42000-232]
+2025-05-09 00:56:31.538691+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "SELECT * FROM USER_CREDENTIAL_TABLE \000d\000a\000d\000a\000d\000aALTER [*]TABLE USER_CREDENTIAL_TABLE  ADD COLUMN FULL_NAME VARCHAR(255)"
+Syntax error in SQL statement "SELECT * FROM USER_CREDENTIAL_TABLE \000d\000a\000d\000a\000d\000aALTER [*]TABLE USER_CREDENTIAL_TABLE  ADD COLUMN FULL_NAME VARCHAR(255)"; SQL statement:
+SELECT * FROM USER_CREDENTIAL_TABLE 
+
+
+ALTER TABLE USER_CREDENTIAL_TABLE  ADD COLUMN FULL_NAME VARCHAR(255) [42000-232]

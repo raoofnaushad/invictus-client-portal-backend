@@ -1,0 +1,2589 @@
+{
+    "num_pages": 8,
+    "category": "bank_statement",
+    "occurrences": 8,
+    "classification_results": [
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_1.jpg",
+            "extracted_data": {
+                "category": "bank_statement"
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_2.jpg",
+            "extracted_data": {
+                "category": "bank_statement"
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_3.jpg",
+            "extracted_data": {
+                "category": "bank_statement"
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_4.jpg",
+            "extracted_data": {
+                "category": "bank_statement"
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_5.jpg",
+            "extracted_data": {
+                "category": "bank_statement"
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_6.jpg",
+            "extracted_data": {
+                "category": "bank_statement"
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_7.jpg",
+            "extracted_data": {
+                "category": "bank_statement"
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_8.jpg",
+            "extracted_data": {
+                "category": "bank_statement"
+            }
+        }
+    ],
+    "extracted_data": [
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_1.jpg",
+            "extracted_data": {
+                "account_holder": {
+                    "value": "639B801915E ASAS HOLDINGS LIMITED",
+                    "bbox": [
+                        247,
+                        218,
+                        570,
+                        235
+                    ],
+                    "confidence": 1.0
+                },
+                "account_number": {
+                    "value": "639C821894G",
+                    "bbox": [
+                        247,
+                        242,
+                        350,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "currency": {
+                    "value": "USD",
+                    "bbox": [
+                        628,
+                        242,
+                        677,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "transactions": [
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                665,
+                                500,
+                                739,
+                                517
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                223,
+                                497,
+                                464,
+                                514
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                500,
+                                858,
+                                517
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                500,
+                                974,
+                                517
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                500,
+                                1128,
+                                517
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                665,
+                                537,
+                                739,
+                                554
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                223,
+                                534,
+                                427,
+                                551
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                537,
+                                858,
+                                554
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                537,
+                                974,
+                                554
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                537,
+                                1128,
+                                554
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                665,
+                                656,
+                                739,
+                                673
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                223,
+                                653,
+                                464,
+                                670
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                656,
+                                858,
+                                673
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                656,
+                                974,
+                                673
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                656,
+                                1128,
+                                673
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                665,
+                                685,
+                                739,
+                                702
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                223,
+                                682,
+                                427,
+                                699
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                685,
+                                858,
+                                702
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                685,
+                                974,
+                                702
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                685,
+                                1128,
+                                702
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                665,
+                                802,
+                                739,
+                                819
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                223,
+                                799,
+                                464,
+                                816
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                802,
+                                858,
+                                819
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                802,
+                                974,
+                                819
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                802,
+                                1128,
+                                819
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                665,
+                                831,
+                                739,
+                                848
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                223,
+                                828,
+                                427,
+                                845
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                831,
+                                858,
+                                848
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                831,
+                                974,
+                                848
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                831,
+                                1128,
+                                848
+                            ],
+                            "confidence": 1.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_2.jpg",
+            "extracted_data": {
+                "account_holder": {
+                    "value": "639B801915E ASAS HOLDINGS LIMITED",
+                    "bbox": [
+                        247,
+                        218,
+                        570,
+                        235
+                    ],
+                    "confidence": 1.0
+                },
+                "account_number": {
+                    "value": "639C984570X",
+                    "bbox": [
+                        247,
+                        242,
+                        365,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "currency": {
+                    "value": "USD",
+                    "bbox": [
+                        474,
+                        242,
+                        498,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "transactions": [
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                664,
+                                504,
+                                739,
+                                521
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                222,
+                                504,
+                                464,
+                                521
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                504,
+                                856,
+                                521
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                504,
+                                972,
+                                521
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                504,
+                                1128,
+                                521
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                664,
+                                540,
+                                739,
+                                557
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                222,
+                                540,
+                                427,
+                                557
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                540,
+                                856,
+                                557
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                540,
+                                972,
+                                557
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                540,
+                                1128,
+                                557
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                664,
+                                656,
+                                739,
+                                673
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                222,
+                                656,
+                                464,
+                                673
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                656,
+                                856,
+                                673
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                656,
+                                972,
+                                673
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                656,
+                                1128,
+                                673
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                664,
+                                695,
+                                739,
+                                712
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                222,
+                                695,
+                                427,
+                                712
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                695,
+                                856,
+                                712
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                695,
+                                972,
+                                712
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                695,
+                                1128,
+                                712
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                664,
+                                803,
+                                739,
+                                820
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                222,
+                                803,
+                                464,
+                                820
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                803,
+                                856,
+                                820
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                803,
+                                972,
+                                820
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                803,
+                                1128,
+                                820
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                664,
+                                844,
+                                739,
+                                861
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                222,
+                                844,
+                                427,
+                                861
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                844,
+                                856,
+                                861
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                844,
+                                972,
+                                861
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                844,
+                                1128,
+                                861
+                            ],
+                            "confidence": 1.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_3.jpg",
+            "extracted_data": {
+                "account_holder": {
+                    "value": "639B801915E ASAS HOLDINGS LIMITED",
+                    "bbox": [
+                        247,
+                        217,
+                        570,
+                        235
+                    ],
+                    "confidence": 1.0
+                },
+                "account_number": {
+                    "value": "639C655401W",
+                    "bbox": [
+                        247,
+                        242,
+                        350,
+                        258
+                    ],
+                    "confidence": 1.0
+                },
+                "currency": {
+                    "value": "USD",
+                    "bbox": [
+                        465,
+                        242,
+                        488,
+                        258
+                    ],
+                    "confidence": 1.0
+                },
+                "transactions": [
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                664,
+                                504,
+                                739,
+                                520
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                222,
+                                499,
+                                464,
+                                515
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                504,
+                                857,
+                                520
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                504,
+                                973,
+                                520
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                504,
+                                1128,
+                                520
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                664,
+                                537,
+                                739,
+                                553
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                222,
+                                532,
+                                427,
+                                548
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                537,
+                                857,
+                                553
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                537,
+                                973,
+                                553
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                537,
+                                1128,
+                                553
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                664,
+                                656,
+                                739,
+                                672
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                222,
+                                651,
+                                464,
+                                667
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                656,
+                                857,
+                                672
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                656,
+                                973,
+                                672
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                656,
+                                1128,
+                                672
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                664,
+                                683,
+                                739,
+                                699
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                222,
+                                678,
+                                427,
+                                694
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                683,
+                                857,
+                                699
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                683,
+                                973,
+                                699
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                683,
+                                1128,
+                                699
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                664,
+                                804,
+                                739,
+                                820
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                222,
+                                799,
+                                464,
+                                815
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                804,
+                                857,
+                                820
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                804,
+                                973,
+                                820
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                804,
+                                1128,
+                                820
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                664,
+                                831,
+                                739,
+                                847
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                222,
+                                826,
+                                427,
+                                842
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                831,
+                                857,
+                                847
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                831,
+                                973,
+                                847
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                831,
+                                1128,
+                                847
+                            ],
+                            "confidence": 1.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_4.jpg",
+            "extracted_data": {
+                "account_holder": {
+                    "value": "639B801915E ASAS HOLDINGS LIMITED",
+                    "bbox": [
+                        247,
+                        218,
+                        570,
+                        235
+                    ],
+                    "confidence": 1.0
+                },
+                "account_number": {
+                    "value": "639C223053A",
+                    "bbox": [
+                        247,
+                        242,
+                        360,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "currency": {
+                    "value": "USD",
+                    "bbox": [
+                        476,
+                        242,
+                        498,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "transactions": [
+                    {
+                        "date": {
+                            "value": "2024-06-04",
+                            "bbox": [
+                                119,
+                                536,
+                                200,
+                                553
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Debit - Outgoing payment (317413327) In favour of WP PCC Limited - NEL Cell St Peter Port GG",
+                            "bbox": [
+                                219,
+                                536,
+                                459,
+                                607
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "60,045.00",
+                            "bbox": [
+                                788,
+                                536,
+                                878,
+                                553
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                536,
+                                990,
+                                553
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "67,118.00",
+                            "bbox": [
+                                1070,
+                                536,
+                                1128,
+                                553
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-12",
+                            "bbox": [
+                                119,
+                                628,
+                                200,
+                                645
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Partial redemption (322494628) ACCESS FUND SPC",
+                            "bbox": [
+                                219,
+                                628,
+                                412,
+                                664
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                788,
+                                628,
+                                878,
+                                645
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "65,159.73",
+                            "bbox": [
+                                948,
+                                628,
+                                1018,
+                                645
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "132,277.73",
+                            "bbox": [
+                                1070,
+                                628,
+                                1128,
+                                645
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-27",
+                            "bbox": [
+                                119,
+                                683,
+                                200,
+                                700
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Partial redemption (324058766) CHINAVEST II SPC",
+                            "bbox": [
+                                219,
+                                683,
+                                412,
+                                719
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                788,
+                                683,
+                                878,
+                                700
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "174,585.38",
+                            "bbox": [
+                                948,
+                                683,
+                                1028,
+                                700
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "306,863.11",
+                            "bbox": [
+                                1070,
+                                683,
+                                1128,
+                                700
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-27",
+                            "bbox": [
+                                119,
+                                735,
+                                200,
+                                752
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Account Transfer Transfer from ASAS HOLDINGS LIMITED (PAO 1) (324294539)",
+                            "bbox": [
+                                219,
+                                735,
+                                603,
+                                771
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "132,277.73",
+                            "bbox": [
+                                788,
+                                735,
+                                878,
+                                752
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                735,
+                                990,
+                                752
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "174,585.38",
+                            "bbox": [
+                                1070,
+                                735,
+                                1128,
+                                752
+                            ],
+                            "confidence": 1.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_5.jpg",
+            "extracted_data": {
+                "account_holder": {
+                    "value": "639B801915E ASAS HOLDINGS LIMITED",
+                    "bbox": [
+                        247,
+                        218,
+                        570,
+                        235
+                    ],
+                    "confidence": 1.0
+                },
+                "account_number": {
+                    "value": "639C717847J",
+                    "bbox": [
+                        247,
+                        242,
+                        358,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "currency": {
+                    "value": "USD",
+                    "bbox": [
+                        459,
+                        242,
+                        485,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "transactions": [
+                    {
+                        "date": {
+                            "value": "2024-06-04",
+                            "bbox": [
+                                120,
+                                536,
+                                200,
+                                553
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Debit - Outgoing payment (317412943) In favour of WP PCC Limited - FSF Cell St Peter Port GG",
+                            "bbox": [
+                                265,
+                                536,
+                                485,
+                                605
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "42,045.00",
+                            "bbox": [
+                                815,
+                                536,
+                                895,
+                                553
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                536,
+                                995,
+                                553
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "50,484.04",
+                            "bbox": [
+                                1070,
+                                536,
+                                1150,
+                                553
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-11",
+                            "bbox": [
+                                120,
+                                629,
+                                200,
+                                646
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Credit - Incoming payment (322332964) By order of WP PCC LIMITED 1ST + 2ND FLOOR, ELIZABETH HOUSE LES RUETTES BRAYES ST PETER PORT GY1 1EW GG",
+                            "bbox": [
+                                265,
+                                629,
+                                485,
+                                718
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                815,
+                                629,
+                                895,
+                                646
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "27,085.39",
+                            "bbox": [
+                                948,
+                                629,
+                                1028,
+                                646
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "77,569.43",
+                            "bbox": [
+                                1070,
+                                629,
+                                1150,
+                                646
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-12",
+                            "bbox": [
+                                120,
+                                740,
+                                200,
+                                757
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Debit - Outgoing payment (322478189) In favour of WP PCC Limited - ASPF Cell St Peter Port GG Outgoing payment: WP PCC Limited - ASPF Cell St Peter Port GG",
+                            "bbox": [
+                                265,
+                                740,
+                                514,
+                                849
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "57,045.00",
+                            "bbox": [
+                                815,
+                                740,
+                                895,
+                                757
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                740,
+                                995,
+                                757
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "20,524.43",
+                            "bbox": [
+                                1070,
+                                740,
+                                1150,
+                                757
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-12",
+                            "bbox": [
+                                120,
+                                872,
+                                200,
+                                889
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Credit - Incoming payment (322498070) By order of ACLO (WP) INVESTORS LIMITED CAREY TRUSTEES LIMITED 1ST + 2ND FLOORS, ELIZABETH HOUSE LES RUETT GY1 1EW GG",
+                            "bbox": [
+                                265,
+                                872,
+                                485,
+                                961
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                815,
+                                872,
+                                895,
+                                889
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "63,926.56",
+                            "bbox": [
+                                948,
+                                872,
+                                1028,
+                                889
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "84,450.99",
+                            "bbox": [
+                                1070,
+                                872,
+                                1150,
+                                889
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-27",
+                            "bbox": [
+                                120,
+                                986,
+                                200,
+                                1003
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Debit - Outgoing payment (324289971) In favour of WP PCC Limited - GLF Cell St Peter Port GG",
+                            "bbox": [
+                                265,
+                                986,
+                                459,
+                                1045
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "404,045.00",
+                            "bbox": [
+                                815,
+                                986,
+                                895,
+                                1003
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                986,
+                                995,
+                                1003
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "-319,594.01",
+                            "bbox": [
+                                1070,
+                                986,
+                                1150,
+                                1003
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-27",
+                            "bbox": [
+                                120,
+                                1077,
+                                200,
+                                1094
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Account Transfer Transfer to ASAS HOLDINGS LIMITED (PAO 1) (324293862)",
+                            "bbox": [
+                                265,
+                                1077,
+                                587,
+                                1113
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                815,
+                                1077,
+                                895,
+                                1094
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "4,350.02",
+                            "bbox": [
+                                948,
+                                1077,
+                                1028,
+                                1094
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "-315,243.99",
+                            "bbox": [
+                                1070,
+                                1077,
+                                1150,
+                                1094
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-27",
+                            "bbox": [
+                                120,
+                                1130,
+                                200,
+                                1147
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Account Transfer Transfer to ASAS HOLDINGS LIMITED (PAO 1) (324294539)",
+                            "bbox": [
+                                265,
+                                1130,
+                                587,
+                                1166
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                815,
+                                1130,
+                                895,
+                                1147
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "132,277.73",
+                            "bbox": [
+                                948,
+                                1130,
+                                1028,
+                                1147
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "-182,966.26",
+                            "bbox": [
+                                1070,
+                                1130,
+                                1150,
+                                1147
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-27",
+                            "bbox": [
+                                120,
+                                1183,
+                                200,
+                                1200
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Credit Forex Spot EUR/USD 1.0617 on 27 June 2024 (324294667)",
+                            "bbox": [
+                                265,
+                                1183,
+                                617,
+                                1200
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                815,
+                                1183,
+                                895,
+                                1200
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "182,966.26",
+                            "bbox": [
+                                948,
+                                1183,
+                                1028,
+                                1200
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1070,
+                                1183,
+                                1100,
+                                1200
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-27",
+                            "bbox": [
+                                120,
+                                1217,
+                                200,
+                                1234
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Credit - Incoming payment (324311856) By order of WP PCC LIMITED 1ST + 2ND FLOOR, ELIZABETH HOUSE LES RUETTES BRAYES ST PETER PORT",
+                            "bbox": [
+                                265,
+                                1217,
+                                485,
+                                1286
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                815,
+                                1217,
+                                895,
+                                1234
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "107,092.21",
+                            "bbox": [
+                                948,
+                                1217,
+                                1028,
+                                1234
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "107,092.21",
+                            "bbox": [
+                                1070,
+                                1217,
+                                1150,
+                                1234
+                            ],
+                            "confidence": 1.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_6.jpg",
+            "extracted_data": {
+                "account_holder": {
+                    "value": "639B801915E ASAS HOLDINGS LIMITED",
+                    "bbox": [
+                        247,
+                        218,
+                        570,
+                        235
+                    ],
+                    "confidence": 1.0
+                },
+                "account_number": {
+                    "value": "639C717847J",
+                    "bbox": [
+                        247,
+                        242,
+                        368,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "currency": {
+                    "value": "USD",
+                    "bbox": [
+                        440,
+                        242,
+                        470,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "transactions": [
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                115,
+                                525,
+                                187,
+                                542
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Credit interests: from 31/03/24 to 30/06/24 (324518940)",
+                            "bbox": [
+                                247,
+                                525,
+                                554,
+                                542
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                763,
+                                525,
+                                850,
+                                542
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "1,966.83",
+                            "bbox": [
+                                948,
+                                525,
+                                1025,
+                                542
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "109,059.04",
+                            "bbox": [
+                                1069,
+                                525,
+                                1126,
+                                542
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                115,
+                                550,
+                                187,
+                                567
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Credit interests: from 31/03/24 to 30/06/24 (324518951)",
+                            "bbox": [
+                                247,
+                                550,
+                                554,
+                                567
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                763,
+                                550,
+                                850,
+                                567
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "674.58",
+                            "bbox": [
+                                948,
+                                550,
+                                1000,
+                                567
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "109,733.62",
+                            "bbox": [
+                                1069,
+                                550,
+                                1126,
+                                567
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-27",
+                            "bbox": [
+                                115,
+                                889,
+                                187,
+                                906
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Debit Forex Spot EUR/USD 1.0617 on 27 June 2024 (324294667)",
+                            "bbox": [
+                                247,
+                                889,
+                                614,
+                                906
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "172,337.03",
+                            "bbox": [
+                                763,
+                                889,
+                                850,
+                                906
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                889,
+                                1025,
+                                906
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "334,771.24",
+                            "bbox": [
+                                1069,
+                                889,
+                                1126,
+                                906
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                115,
+                                915,
+                                187,
+                                932
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Credit interests: from 31/03/24 to 30/06/24 (324536351)",
+                            "bbox": [
+                                247,
+                                915,
+                                554,
+                                932
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                763,
+                                915,
+                                850,
+                                932
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "1,198.54",
+                            "bbox": [
+                                948,
+                                915,
+                                1025,
+                                932
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "335,969.78",
+                            "bbox": [
+                                1069,
+                                915,
+                                1126,
+                                932
+                            ],
+                            "confidence": 1.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_7.jpg",
+            "extracted_data": {
+                "account_holder": {
+                    "value": "639B801915E ASAS HOLDINGS LIMITED",
+                    "bbox": [
+                        247,
+                        218,
+                        570,
+                        235
+                    ],
+                    "confidence": 1.0
+                },
+                "account_number": {
+                    "value": "639C498696E",
+                    "bbox": [
+                        247,
+                        242,
+                        345,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "currency": {
+                    "value": "USD",
+                    "bbox": [
+                        508,
+                        242,
+                        532,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "transactions": [
+                    {
+                        "date": {
+                            "value": "2024-06-27",
+                            "bbox": [
+                                119,
+                                538,
+                                205,
+                                555
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Account Transfer Transfer from ASAS HOLDINGS LIMITED (PAO 1) (324293862)",
+                            "bbox": [
+                                268,
+                                538,
+                                603,
+                                572
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "4,350.02",
+                            "bbox": [
+                                868,
+                                538,
+                                934,
+                                555
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                949,
+                                538,
+                                995,
+                                555
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1072,
+                                538,
+                                1106,
+                                555
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                119,
+                                591,
+                                205,
+                                608
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Interest correction: from 31/12/23 to 31/03/24 (325091807)",
+                            "bbox": [
+                                268,
+                                591,
+                                570,
+                                608
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                868,
+                                591,
+                                934,
+                                608
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.89",
+                            "bbox": [
+                                949,
+                                591,
+                                995,
+                                608
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.89",
+                            "bbox": [
+                                1072,
+                                591,
+                                1106,
+                                608
+                            ],
+                            "confidence": 1.0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "image_url": "https://huggingface.co/datasets/hmedch/demo-asbi/resolve/main/ASAS cash statement HSBC Jun 24_page_8.jpg",
+            "extracted_data": {
+                "account_holder": {
+                    "value": "639B801915E ASAS HOLDINGS LIMITED",
+                    "bbox": [
+                        247,
+                        218,
+                        570,
+                        235
+                    ],
+                    "confidence": 1.0
+                },
+                "account_number": {
+                    "value": "639C374057N",
+                    "bbox": [
+                        247,
+                        242,
+                        367,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "currency": {
+                    "value": "USD",
+                    "bbox": [
+                        476,
+                        242,
+                        499,
+                        259
+                    ],
+                    "confidence": 1.0
+                },
+                "transactions": [
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                664,
+                                504,
+                                740,
+                                521
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                120,
+                                504,
+                                464,
+                                521
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                504,
+                                855,
+                                521
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                504,
+                                971,
+                                521
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                504,
+                                1128,
+                                521
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                664,
+                                538,
+                                740,
+                                555
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                120,
+                                538,
+                                427,
+                                555
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                538,
+                                855,
+                                555
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                538,
+                                971,
+                                555
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                538,
+                                1128,
+                                555
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                664,
+                                657,
+                                740,
+                                674
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                120,
+                                657,
+                                464,
+                                674
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                657,
+                                855,
+                                674
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                657,
+                                971,
+                                674
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                657,
+                                1128,
+                                674
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                664,
+                                684,
+                                740,
+                                701
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                120,
+                                684,
+                                427,
+                                701
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                684,
+                                855,
+                                701
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                684,
+                                971,
+                                701
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                684,
+                                1128,
+                                701
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-05-31",
+                            "bbox": [
+                                664,
+                                804,
+                                740,
+                                821
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Balance carried forward to your credit",
+                            "bbox": [
+                                120,
+                                804,
+                                464,
+                                821
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": null,
+                            "bbox": [
+                                832,
+                                804,
+                                855,
+                                821
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": null,
+                            "bbox": [
+                                948,
+                                804,
+                                971,
+                                821
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                804,
+                                1128,
+                                821
+                            ],
+                            "confidence": 1.0
+                        }
+                    },
+                    {
+                        "date": {
+                            "value": "2024-06-30",
+                            "bbox": [
+                                664,
+                                831,
+                                740,
+                                848
+                            ],
+                            "confidence": 1.0
+                        },
+                        "description": {
+                            "value": "Total new balance to your credit",
+                            "bbox": [
+                                120,
+                                831,
+                                427,
+                                848
+                            ],
+                            "confidence": 1.0
+                        },
+                        "debit": {
+                            "value": "0.00",
+                            "bbox": [
+                                832,
+                                831,
+                                855,
+                                848
+                            ],
+                            "confidence": 1.0
+                        },
+                        "credit": {
+                            "value": "0.00",
+                            "bbox": [
+                                948,
+                                831,
+                                971,
+                                848
+                            ],
+                            "confidence": 1.0
+                        },
+                        "balance": {
+                            "value": "0.00",
+                            "bbox": [
+                                1071,
+                                831,
+                                1128,
+                                848
+                            ],
+                            "confidence": 1.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
