@@ -25,6 +25,10 @@ public class UpdateProfileCommandHandler implements CommandHandler<UpdateProfile
             mainEntity.getUserCredential().setFullName(command.fullName());
         }
 
+        if (command.phoneNumber() != null) {
+            mainEntity.getUserCredential().setPhoneNumber(command.phoneNumber());
+        }
+
         return Mono.just(ProfileUpdatedEvent.builder()
                 .id(new PrincipalEventId())
                 .build());
