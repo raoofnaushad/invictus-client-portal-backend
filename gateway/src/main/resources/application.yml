@@ -45,7 +45,7 @@ spring:
               - PUT
               - DELETE
               - OPTIONS
-            allowedHeaders: "Authorization, Content-Type"
+            allowedHeaders: "*"
             allowCredentials: true
 
   # OAuth2 Configuration for JWT Resource Server
