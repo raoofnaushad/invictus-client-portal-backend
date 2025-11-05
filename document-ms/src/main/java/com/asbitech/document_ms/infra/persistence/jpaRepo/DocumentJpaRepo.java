@@ -11,10 +11,10 @@ import reactor.core.publisher.Mono;
 
 @Repository
 public interface DocumentJpaRepo extends ReactiveCrudRepository<DocumentTable, String> {
-    @Query("SELECT * FROM document_table WHERE client_id = :clientId ORDER BY created_at DESC LIMIT :limit OFFSET :offset")
+    @Query("SELECT * FROM document_table WHERE client_id = :clientId and document_status != 'Deleted' ORDER BY created_at DESC LIMIT :limit OFFSET :offset")
     Flux<DocumentTable> findByClientId(String clientId, long limit, long offset);
 
-    @Query("SELECT COUNT(*) FROM document_table WHERE client_id = :clientId")
+    @Query("SELECT COUNT(*) FROM document_table WHERE client_id = :clientId and document_status != 'Deleted'")
     Mono<Long> countByClientId(String clientId);
 
      Mono<DocumentTable> findByFilePath(String fileName);

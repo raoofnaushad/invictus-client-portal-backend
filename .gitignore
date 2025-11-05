@@ -94,3 +94,8 @@ Thumbs.db
 # Ignore any local config files
 application-local.properties
 application-local.yml
+
+
+/client-ms/data
+/integration-ms/data
+/common-ms/data

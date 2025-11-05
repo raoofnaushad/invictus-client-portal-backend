@@ -8,7 +8,6 @@ import org.springframework.data.annotation.Transient;
 import org.springframework.data.domain.Persistable;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
-import org.w3c.dom.DocumentType;
 
 import com.asbitech.document_ms.domain.vo.DocumentStatus;
 import com.asbitech.document_ms.infra.utils.JsonUtils;
@@ -24,7 +23,7 @@ public class DocumentTable implements Persistable<String> {
     private String name;
     private String description;
     private String filePath;
-    private DocumentType documentType;
+    private String documentType;
     private DocumentStatus documentStatus;
     private String clientId;
     private LocalDateTime createdAt;

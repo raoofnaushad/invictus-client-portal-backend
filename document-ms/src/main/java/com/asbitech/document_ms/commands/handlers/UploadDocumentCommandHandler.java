@@ -53,6 +53,7 @@ public class UploadDocumentCommandHandler implements CommandHandler<UploadDocume
                                                 document.setId(new DocumentId());
                                                 document.setCreatedAt(LocalDateTime.now());
                                                 document.setUpdatedAt(LocalDateTime.now());
+                                                document.setIsNew(true); // Mark as new for insert
                                                 return documentRepo.store(document);
                                             }))
                                         .map(savedDocEith -> savedDocEith.fold(
