@@ -5,10 +5,13 @@ import org.springframework.web.bind.annotation.RestController;
 import com.asbitech.common.domain.CustomError;
 import com.asbitech.common.domain.PageResponse;
 import com.asbitech.document_ms.application.DocumentCommandManager;
+import com.asbitech.document_ms.commands.UpdateDocumentCommand;
 import com.asbitech.document_ms.commands.UploadDocumentCommand;
 import com.asbitech.document_ms.domain.entity.Document;
 import com.asbitech.document_ms.domain.repository.DocumentRepo;
+import com.asbitech.document_ms.domain.vo.DocumentId;
 import com.asbitech.document_ms.domain.vo.DocumentStatus;
+import com.asbitech.document_ms.interfaces.rest.dto.UpdateDocumentRequest;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import reactor.core.publisher.Mono;
@@ -27,6 +30,8 @@ import org.springframework.http.codec.multipart.FilePart;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -79,11 +84,15 @@ public class DocumentController {
                                     } catch (IOException e) {
                                         e.printStackTrace();
                                         document.setExtractedData(Map.of());
-                                        document.setDocumentStatus(DocumentStatus.Pending); // fallback empty map
+                                        if (document.getDocumentStatus().equals(DocumentStatus.Processing)) {
+                                            document.setDocumentStatus(DocumentStatus.Pending);
+                                        }
                                     }
                                 } else {
                                     document.setExtractedData(Map.of());
-                                    document.setDocumentStatus(DocumentStatus.Pending); // no JSON found
+                                    if (document.getDocumentStatus().equals(DocumentStatus.Processing)) {
+                                            document.setDocumentStatus(DocumentStatus.Pending);
+                                    }
                                 }
                             }
                         });
@@ -108,6 +117,29 @@ public class DocumentController {
         LOG.info(userId); 
         return documentService.processCommand(UploadDocumentCommand.builder()
                 .file(file).uploadedByUserId(userId).build())
+                    .flatMap(response -> {
+                        if (response.isRight()) {
+                            return Mono.just(ResponseEntity
+                                    .status(HttpStatus.OK) 
+                                    .body(response.get()));
+                        } else {
+                            CustomError customError = response.getLeft();
+                            LOG.error("Error getHttpStatusCode principal: {}", customError.getHttpStatusCode());
+                            LOG.error("Error creating principal: {}", customError.getMessage());
+
+                            return Mono.just(ResponseEntity
+                                    .status(customError.getHttpStatusCode()) // Return actual error status
+                                    .body(customError)); // Return CustomError as response body
+                        }
+                    });
+    }
+
+    @PutMapping(value = "/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public Mono<ResponseEntity<?>> updateDocument(@PathVariable("id") String id,
+            @RequestBody UpdateDocumentRequest body, @RequestHeader(USER_ID_HEADER) String userId) {
+        LOG.info(userId); 
+        return documentService.processCommand(UpdateDocumentCommand.builder()
+                .documentId(new DocumentId(id)).documentStatus(body.getDocumentStatus()).extractedDdata(body.getExtractedData()).build())
                     .flatMap(response -> {
                         if (response.isRight()) {
                             return Mono.just(ResponseEntity
